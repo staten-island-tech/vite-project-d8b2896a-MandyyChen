@@ -1,11 +1,13 @@
 const DOMSelectors = {
-    card: document.getElementById(".card"),
-    eyes: document.getElementById(".eyesbtn"),
-    cheek: document.getElementById(".cheekbtn"),
-    skin: document.getElementById(".skinbtn"),
-    lips: document.getElementById(".lipsbtn"),
-    filter: document.getElementById(".makeupFiler"),
-    theme: document.getElementById("changeTheme"),
-}
+    body: document.querySelector(".body"),
+    container: document.querySelector(".container"),
+    eyes: document.querySelector(".eyesbtn"),
+    cheek: document.querySelector(".cheekbtn"),
+    skin: document.querySelector(".skinbtn"),
+    lips: document.querySelector(".lipsbtn"),
+    all: document.querySelector(".allbtn"),
+    filter: document.querySelector(".makeupFiler"),
+    theme: document.querySelector(".changeTheme"),
+};
 
 export {DOMSelectors}

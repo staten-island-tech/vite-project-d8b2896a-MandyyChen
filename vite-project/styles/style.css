@@ -1,50 +1,112 @@
+:root {
+  
+    --pink: #d996a7;
+    --maroon: #33000D;
+    --white: #FFEBEB;
+    --hot_pink: #ee7c99;
+  
 
-body,
-html,
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #505172;
-}
+    --dark_blue: #1E2F97;
+    --blue: #1AA7EC;
+    --light_blue: rgba(225, 239, 245);
+    --cornflower: #79abf6;
+  
+  
+  }
+  
+  .pinkity {
+    --primary: var(--pink);
+    --secondary: var(--white);
+    --three: var(--maroon);
+    --button: var(--hot_pink);
+  }
+  
+  .blueBoss {
+    --primary: var(--blue);
+    --secondary: var(--dark_blue);
+    --three: var(--light_blue);
+    --button: var(--cornflower);
+  }
 
-
-h1 {
-  font-size: 3.2rem;
-  text-align: center;
-  color: #ffffff;
-}
-
-.makeupFilter {
+.container{
   display: flex;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
-  justify-content: space-around
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+ 	flex-wrap: wrap;
 }
 
 .card {
+  height: 60vh;
+  width: 20%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
   justify-content: space-around;
-  background-color:#9b9dca;
-  margin: 5rem;
+  margin: 2.5rem 0;
+  background-color: var(--primary);
+  padding: 4rem;
+  border-radius: 8px;
+  border-color: var(--secondary);
+}
+
+.card:hover{
+  background-color: var(--secondary);
+}
+
+.makeupFilter{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
 }
 
 button{
-  background-color: white;
-  border-radius: 5px;
-  border-color: black;
+  background-color: var(--button);
+  border-color: var(--secondary);
   font-size: 20px;
-}
-
-.card-image{
-  max-width: 20%;
-}
-
-h2, h3, h4 {
+  padding:10px;
   text-align: center;
-  font-size: 1.8rem;
+  border-radius: 8px;
+  color: var(--secondary);
+  font-family: 'Roboto Mono', monospace;
+}
+
+button:hover {
+  border-color: var(--three);
+}
+
+img {
+  min-width: 50%;
+  min-height: 50%;;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 3.2rem;
+  text-align: center;
+  color: var(--three);
+  background-color: var(--primary);
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+h3{
+  text-align: center;
+  font-size: 25px;
+  margin: 7px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h4{
+  text-align: center;
+  margin: 2px;
+  font-style: italic;
 }

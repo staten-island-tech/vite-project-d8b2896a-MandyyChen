@@ -13,7 +13,7 @@ const items = [
         price: "$9.54",
         img:"https://m.media-amazon.com/images/I/515gDug6-ZL.jpg",
         makeup: "cheek",
-        desc: "Featuring pastel colors inspired by dried fruits, the blush brings a refreshing flush to your cheeks for a delicate yet healthy look. The upgraded formula ensures minimal clumping and fallout for a long-lasting finish.",
+        desc: "Featuring pastel colors inspired by dried fruits, the blush brings a refreshing flush to your cheeks for a delicate yet healthy look. ",
     },
     
     
@@ -22,16 +22,16 @@ const items = [
         price: "$10.10",
         img: "data:image/webp;base64,UklGRuwDAABXRUJQVlA4IOADAACQEgCdASpaAFoAPkUOkUiikVFLwCgERKAJZXTGjK8hH27wjkTnU+YBzmvMB+03q5f4D1G+gB/WP8p1hnoAeWl7HX7melE0QVp8tHSBMzbwxeBhcO1+CIH4WJFYkCE2rwrwxUdj+eMXegyjNT8bU681FPAu1SBh1kJpN5xH4pcJX4cITEu3ojDkbsBhnUbxOeP/iZsVJgPmYf7/ZK8AAP7/PVr8T8CT69afOyOMbTrw7N9QiFfn/nLLxsKYYiYCLNc42oTvd53u4ziGYLV9/OLZL8/8T695tvY9ET2/FJPMd7pcF0c/KhlKcOzVoIQZgcpeejwdcumDMrooQOz9x5RSwGkbOZ56QyYtFX/EaPRHtvqVMdEwKWrHT1kOjnqewc6BIbv2tjS87350dF74GDt/pv787GROjOwI37WJTU4gGCB3cUX0nhLOJ9QmwRipO9pibWEVOZxkfXxZX+Dl878C5eI8JK99GpgudcKM0tLjkdOi9J+XzMpGDOgAXMG97UHt6PWMvi5gO1jn/isttOMORh1rup60P7JwkwbTJCWMKIWNmtrmsB47ANrrI+kTlbSnnSpulCL/D6sNVA1cODcHzHqLDrgqd6pn659h+biXh6z1kNL62SP/DOhDtFc07ycpjYyesZWRDXeLf7ctKqSsrCuvnoD4Ux2mpuI0WvOViK/FdHJM9klze84fbFalNsLXs7B+CevpcI9nj/buyJwB+YxK4VjwzOnq7zDblTb7Yx/jwyluMyWNvCBbY1WJIC5TfwU9CpAhJma5Cfe1J9kPKlu3dFsOAsK38mnwKn25TOXAmVJHaBuWBuTDsteG9fTDB7eC9TrB9/KMsF3RZP0AiJYrNZvvmjz6t9ANt5hI3Ov9Hg91M9bFDxNnPQVLgfTO2lsy9ByIhKThrqtDB6+XOmIIOe3G9hyXL9sg3y8Uui/RAdO2aoqpwhpiXiKlmVBiTGUz1/nnd3KSHzi7ZHm4VlI32obHFQrouZ0NGl+p0FY7hocdcdvfVcug32moIBSxhmQR4kWv4qfp5wLdRflSSNC3vQHym41tVJodoIqvwBtHd/YGFtXPdj9zAxsQiWWBm3qkCxA+QNxCtxwAfC/JpJ1HUz4MeR9LEHV8iTFmu+HM+34sLAGjdVP7622ysUDdgo17hzQGshXNg//RvsT7AnuaqXbkNblO/F0DlqA3un2EGCO9fFlddEchnVzd//hXkK4v+ah+UvLtENorMJLdwrj7Bqze1UtnGiCuNw6b7y6b0l9oUZ85si3ptJSm3h/1ws2gJrwlintkfwGP8EeRv/4UWvnjwURTLicgAAAAAA==",
         makeup: "cheek",
-        desc: "Add subtle glow to cheeks by indulging in this user-friendly blush in a highly-buildable balm formula! Use sparingly for a sheer yet impactful finish, or generously for a bolder cheek makeup look. The heart-shaped packaging boasts major soft girl appeal."
+        desc: "Add subtle glow to cheeks by indulging in this user-friendly blush in a highly-buildable balm formula!"
     },
     
     
     {
         title: "Judydoll - Starlight Highlighting Powder",
         price: "$10.00",
-        img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4IzmPNnSTXBG_0HqLuOKewcvd2Xnl3vu70Cd5H8VDBvcPHWboh7LYlfrTQqU_9MOknBo0A0VOzFE9EljlNLoZPUZi1Xk8fokzXRdMhANf4MJlxkSNOPu4ItrIA1yKCVPv8BH_QN5S&usqp=CAc",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKhzIx2K7J55xqOeN18L9MzrF0ChbsvWp0oOPoP7EN6r3lmV-OYlQu0O8bZSP0JGlJwRc&usqp=CAU",
         makeup: "cheek",
-        desc: "Achieve that lit-from-within glow with this highlighter featuring a three-layer structure that combines matte, shimmery and glittery formulations to accentuate natural contours of the face.",
+        desc: "Achieve that lit-from-within glow with this highlighter featuring a three-layer structure that combines matte, shimmery and glittery formulations.",
     },
     
     
@@ -47,7 +47,7 @@ const items = [
     {
         title: "MACQUEEN - MQNY Waterproof Pen Eyeliner",
         price: "$4.55",
-        img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FMQNY-MACQUEEN-Waterproof-Eyeliner-Brown%2Fdp%2FB0C1MV6152&psig=AOvVaw3dfKVJdpOma1KKtmC_fyCL&ust=1701318473056000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIj49cuw6IIDFQAAAAAdAAAAABAG",
+        img: "https://d1flfk77wl2xk4.cloudfront.net/Assets/96/797/XXL_p0167879796.jpg",
         makeup: "eye",
         desc: "Fine-tipped eyeliner makes it easy to contour and control eye definition.",
     },
@@ -75,7 +75,7 @@ const items = [
         title: "CLIO - TWINKLE POP Glittering Eye Stick",
         price: "$5.18",
         img: "https://clubclio.shop/cdn/shop/products/twinklepop.jpg?v=1671587963",
-        makeup: "eye",
+        makeup: "skin",
         desc: "Get the aegyo-sal look with a simple swipe of this cream eye shadow under the lower lids!",
     },
     
@@ -84,7 +84,7 @@ const items = [
         title: "The Saem - Cover Perfection Tip Concealer",
         price: "$4.06",
         img: "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/tsm/tsm12126/y/3.jpg",
-        makeup: "face",
+        makeup: "skin",
         desc: "Cover spots and blemishes on skin with this Cover Perfection Tip Concealer.",
     },
     
@@ -93,7 +93,7 @@ const items = [
         title: "CLIO - Kill Cover Mesh Glow Cushion Set",
         price: "$20.78",
         img: "https://clubclio.shop/cdn/shop/products/clio_ea241410-37b3-43d5-838b-1dca28604eaa.jpg?v=1675134808",
-        makeup: "face",
+        makeup: "skin",
         desc: "This cushion foundation effectively covers blemishes and other skin imperfections for smooth and lightweight coverage that lasts all day.",
     },
     
@@ -102,7 +102,7 @@ const items = [
         title: "so natural - All Day Tight Make Up Setting Mist",
         price: "$12.32",
         img: "https://d1flfk77wl2xk4.cloudfront.net/Assets/10/358/XL_p0088335810.jpg",
-        makeup: "face",
+        makeup: "skin",
         desc: "Fixer is rich in refreshing extracts from lemon, tea tree and centella to leave skin matte and refreshed.",
     },
     
