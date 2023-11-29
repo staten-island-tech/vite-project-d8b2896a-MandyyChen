@@ -75,7 +75,7 @@ const items = [
         title: "CLIO - TWINKLE POP Glittering Eye Stick",
         price: "$5.18",
         img: "https://clubclio.shop/cdn/shop/products/twinklepop.jpg?v=1671587963",
-        makeup: "skin",
+        makeup: "eye",
         desc: "Get the aegyo-sal look with a simple swipe of this cream eye shadow under the lower lids!",
     },
     
