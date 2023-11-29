@@ -5,7 +5,7 @@ const DOMSelectors = {
     skin: document.getElementById(".skinbtn"),
     lips: document.getElementById(".lipsbtn"),
     filter: document.getElementById(".makeupFiler"),
-    theme: document.getElementById("theme"),
+    theme: document.getElementById("changeTheme"),
 }
 
 export {DOMSelectors}

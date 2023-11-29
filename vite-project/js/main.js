@@ -13,7 +13,7 @@ function insertCard(arr) {
       'beforeend',
       `<div class="card">
     <h2 class="card-title">${el.title}</h2>
-    <img src="${el.img} class="card-image">
+    <img class="card-image" src="${el.img}" alt=""></img>
     <h3 class="card-price"> ${el.price} </h3>
     <h4 class="card-subtitle"> ${el.desc} </h4></div>`)
   });
@@ -37,3 +37,15 @@ buttons.forEach((btn)=> btn.addEventListener("click", function(){
   clearfields()
   insertCard(newArr)
 }))
+
+
+DOMSelectors.theme.addEventListener("click", function() {
+  if (document.body.classList.contains("pinkity")) {
+    document.body.classList.remove("pinkity");
+    document.body.classList.add("blueBoss");
+  }
+  else {
+    document.body.classList.add("pinkity");
+    document.body.classList.remove("blueBoss");
+  } 
+});
