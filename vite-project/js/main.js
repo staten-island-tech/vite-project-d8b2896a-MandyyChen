@@ -23,29 +23,29 @@ function clearfields() {
   el.innerHTML = ""
 }
 
-document.querySelector(".cheekbtn").addEventListener("click", function(){
-  let cheek = items.filter((item) => item.makeup === "cheek");
-  clearfields();
-  insertCard(cheek);
-})
+// document.querySelector(".cheekbtn").addEventListener("click", function(){
+//   let cheek = items.filter((item) => item.makeup === "cheek");
+//   clearfields();
+//   insertCard(cheek);
+// })
 
-document.querySelector(".lipsbtn").addEventListener("click", function(){
-  let lip = items.filter((item) => item.makeup === "lips");
-  clearfields();
-  insertCard(lip);
-})
+// document.querySelector(".lipsbtn").addEventListener("click", function(){
+//   let lip = items.filter((item) => item.makeup === "lips");
+//   clearfields();
+//   insertCard(lip);
+// })
 
-document.querySelector(".skinbtn").addEventListener("click", function(){
-  let skin = items.filter((item) => item.makeup === "skin");
-  clearfields();
-  insertCard(skin);
-})
+// document.querySelector(".skinbtn").addEventListener("click", function(){
+//   let skin = items.filter((item) => item.makeup === "skin");
+//   clearfields();
+//   insertCard(skin);
+// })
 
-document.querySelector(".eyesbtn").addEventListener("click", function(){
-  let eye = items.filter((item) => item.makeup === "eye");
-  clearfields();
-  insertCard(eye);
-})
+// document.querySelector(".eyesbtn").addEventListener("click", function(){
+//   let eye = items.filter((item) => item.makeup === "eye");
+//   clearfields();
+//   insertCard(eye);
+// })
 
 
 document.querySelector(".allbtn").addEventListener("click", function() {
@@ -53,21 +53,15 @@ document.querySelector(".allbtn").addEventListener("click", function() {
   insertCard(items);
 })
 
-// cheek.forEach(el) => card(el);
-// eye.forEach(el) => card(el);
-// skin.forEach(el) => card(el);
-// lip.forEach(el) => card(el);
 
+let buttons = document.querySelectorAll(".eyesbtn, .skinbtn, .lipsbtn, .cheekbtn");
 
-// let buttons = document.querySelectorAll(".eyesbtn, .skinbtn, .lipsbtn, .cheekbtn")
-
-
-// buttons.forEach((button)=> button.addEventListener("click", function(){
-//   let type = button.textContent.toLowerCase()
-//   let newArr = items.filter((item) => item.makeup === type)
-//   clearfields()
-//   insertCard(newArr)
-// }))
+buttons.forEach((button) => button.addEventListener("click", function () {
+  let type = button.textContent.toLowerCase();
+    let newArr = items.filter((item) => item.makeup.toLowerCase() === type);
+    clearfields();
+    insertCard(newArr);
+  }));
 
 
 document.getElementById("changeTheme").addEventListener("click", function() {
